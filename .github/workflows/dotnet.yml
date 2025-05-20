@@ -36,6 +36,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: 9.0.x
+        uses: actions/deploy-pages@v4
